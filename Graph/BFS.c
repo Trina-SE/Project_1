@@ -1,4 +1,4 @@
-//BFS
+//BFS Code
 
 #include<stdio.h>
 #include<stdlib.h>
