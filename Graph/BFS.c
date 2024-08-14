@@ -1,3 +1,5 @@
+//BFS
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -13,7 +15,7 @@ void bfs(int source){
        for(int i=1;i<max;i++){
           color[i]='W';
           parent[i]=-1;
-          distance[i]=INT_MAX;
+          distance[i]=10000;
        }
        int queue[max],start=0,end=0;
        queue[end]=source;
